@@ -22,7 +22,7 @@ defmodule Floki.Mixfile do
 
   defp deps do
     [
-      {:mochiweb_html, "~> 2.13"},
+      {:mochiweb_html, git: "https://github.com/lukeledet/mochiweb.git", app: false},
       {:earmark, "~> 0.1", only: :dev},
       {:ex_doc, "~> 0.11", only: :dev},
       {:inch_ex,">= 0.0.0", only: :docs}
